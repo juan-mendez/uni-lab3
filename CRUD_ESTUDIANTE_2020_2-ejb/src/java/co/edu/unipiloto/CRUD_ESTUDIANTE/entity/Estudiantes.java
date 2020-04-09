@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * @author manuel martinez
+ * @author ADMIN
  */
 @Entity
 @Table(name = "ESTUDIANTES")
@@ -47,6 +47,8 @@ public class Estudiantes implements Serializable {
     @Column(name = "YEARLEVEL")
     private Integer yearlevel;
 
+    
+    
     public Estudiantes() {
     }
 
@@ -96,6 +98,9 @@ public class Estudiantes implements Serializable {
         this.yearlevel = yearlevel;
     }
 
+    
+    
+    
     @Override
     public int hashCode() {
         int hash = 0;

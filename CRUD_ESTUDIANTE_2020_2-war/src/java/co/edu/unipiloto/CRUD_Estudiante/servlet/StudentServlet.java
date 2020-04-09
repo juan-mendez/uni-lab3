@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author manuel martinez
+ * @author ADMIN
  */
 public class StudentServlet extends HttpServlet {
 

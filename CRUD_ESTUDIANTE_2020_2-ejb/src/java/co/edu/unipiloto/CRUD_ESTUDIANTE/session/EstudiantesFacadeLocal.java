@@ -11,7 +11,7 @@ import javax.ejb.Local;
 
 /**
  *
- * @author manuel martinez
+ * @author ADMIN
  */
 @Local
 public interface EstudiantesFacadeLocal {
